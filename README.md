@@ -70,7 +70,7 @@ This project is suitable for applications such as laboratories, server rooms, co
 
 ## Block Diagram
 
-![Block Diagram](image/block_diagram(3).png)
+![Block Diagram](image/block_diagram.png)
 
 ### System Components
 
