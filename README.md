@@ -391,16 +391,8 @@ ThermoSet_Connect/
 
 ## Hardware Photos
 
-### 1. Front View
-
 ![Hardware Front View](image/hw_front.jpg)
-
-### 2. Hardware Connections
-
 ![Hardware Wiring](image/hw_wiring.jpg)
-
-### 3. Project in Operation
-
 ![Hardware Running](image/hw_running.jpg)
 
 *Replace these images with actual photographs of the assembled hardware. Keep the filenames unchanged or update the corresponding README image paths.*
