@@ -42,7 +42,7 @@ Power-fail safe	Set point stored in EEPROM, default 32 °C if EEPROM is blank or
 Alerts	Buzzer blinks locally, one cloud alert per over-threshold event
 Welcome screen	Scrolling message at boot
 Block Diagram
-![Block Diagram](image/block_diagram.png)
+![Block Diagram](image/block_diagram(3).png)
 Inputs: LM35 to ADC, switch to external interrupt, keypad to GPIO, EEPROM over I2C.
 Outputs: LCD in 8-bit GPIO mode, buzzer on GPIO, ESP-01 over UART0.
 Cloud: the ESP-01 reaches ThingSpeak over WiFi. A phone or PC views the data and can write a new set point.
