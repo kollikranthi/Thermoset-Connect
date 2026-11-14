@@ -42,7 +42,7 @@ Power-fail safe	Set point stored in EEPROM, default 32 °C if EEPROM is blank or
 Alerts	Buzzer blinks locally, one cloud alert per over-threshold event
 Welcome screen	Scrolling message at boot
 Block Diagram
-![Block Diagram](images/block_diagram.png)
+![Block Diagram](image/block_diagram.png)
 Inputs: LM35 to ADC, switch to external interrupt, keypad to GPIO, EEPROM over I2C.
 Outputs: LCD in 8-bit GPIO mode, buzzer on GPIO, ESP-01 over UART0.
 Cloud: the ESP-01 reaches ThingSpeak over WiFi. A phone or PC views the data and can write a new set point.
@@ -84,25 +84,25 @@ The LM35 gives 10 mV per °C, so 1.5 V at 150 °C. That is safe for the ADC.
 I2C0 pins are open-drain. Add about 4.7 kΩ pull-ups to 3.3 V.
 P0.14 is both LCD D6 and the ISP entry pin. If flashing fails, disconnect that LCD line for a moment.
 How It Works
-![How It Works](images/how_it_works.png)
+![How It Works](image/how_it_works.png)
 Alert rule: an alert is raised when the temperature is above the set point. The cloud alert is sent once per over-threshold event.
 Remote update: the device reads Channel 2 and saves a changed value to EEPROM.
 Local update: TODO: confirm whether a keypad set point is also pushed back to the cloud.
 Intervals: TODO: write the real upload and polling intervals (seconds) from the code.
 LCD Output
-![LCD Screens](images/lcd_screens.png)
+![LCD Screens](image/lcd_screens.png)
 Messages while the ESP-01 talks to ThingSpeak:
 ![LCD Cloud Status](images/lcd_cloud_status.png)
 > These are illustrative renders. TODO: replace them with photos of your own LCD, or update the text to match the firmware strings.
 Keypad Menu
 Pressing the switch (EINT0) opens the menu.
-![Keypad Menu](images/keypad_menu.png)
+![Keypad Menu](image/keypad_menu.png)
 TODO: add a table of which key selects which option (from `lcd_display.c`).
 ESP-01 AT Commands
-![AT Commands](images/at_commands.png)
+![AT Commands](image/at_commands.png)
 TODO: verify the commands, expected replies, wait times and retry count against `esp01.c`, and add them to the table.
 ThingSpeak Setup
-![ThingSpeak Channels](images/thingspeak_channels.png)
+![ThingSpeak Channels](image/thingspeak_channels.png)
 Create a free account at thingspeak.com.
 Create Channel 1 (main data): Field 1 Temperature, Field 2 Alert temperature, Field 3 Current set point.
 Create Channel 2 (set-point entry): Field 1 Set point.
@@ -170,7 +170,7 @@ ThermoSet_Connect/
 ```
 Hardware Photos
 Front view	Wiring	Running
-![Front](images/hw_front.ppg)	![Wiring](images/hw_wiring.png)	![Running](images/hw_running.png)
+![Front](image/hw_front.ppg)	![Wiring](image/hw_wiring.png)	![Running](image/hw_running.png)
 > Take these three photos of your own board and save them in `images/` with exactly these names.
 Future Work
 Alert hysteresis to avoid repeated triggering when the temperature hovers at the set point.
