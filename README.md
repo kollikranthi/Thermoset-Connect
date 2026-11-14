@@ -170,7 +170,7 @@ ThermoSet_Connect/
 ```
 Hardware Photos
 Front view	Wiring	Running
-![Front](images/hw_front.jpg)	![Wiring](images/hw_wiring.jpg)	![Running](images/hw_running.jpg)
+![Front](images/hw_front.ppg)	![Wiring](images/hw_wiring.png)	![Running](images/hw_running.png)
 > Take these three photos of your own board and save them in `images/` with exactly these names.
 Future Work
 Alert hysteresis to avoid repeated triggering when the temperature hovers at the set point.
