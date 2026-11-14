@@ -70,7 +70,7 @@ This project is suitable for applications such as laboratories, server rooms, co
 
 ## Block Diagram
 
-![Block Diagram](image/block_diagram.png)
+![Block Diagram](image/block_diagram(3).png)
 
 ### System Components
 
@@ -391,9 +391,9 @@ ThermoSet_Connect/
 
 ## Hardware Photos
 
-![Hardware Front View](image/hw_front.jpg)
-![Hardware Wiring](image/hw_wiring.jpg)
-![Hardware Running](image/hw_running.jpg)
+![Hardware Front View](image/hw_front.jpg.jpeg)
+![Hardware Wiring](image/hw_wiring.jpg.jpeg)
+![Hardware Running](image/hw_running.jpg.jpeg)
 
 *Replace these images with actual photographs of the assembled hardware. Keep the filenames unchanged or update the corresponding README image paths.*
 
