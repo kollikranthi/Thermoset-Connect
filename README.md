@@ -9,7 +9,7 @@
 ![WiFi](https://img.shields.io/badge/WiFi-ESP--01-red)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-![Project Photo](image/hw_front.jpg)
+
 
 ---
 
@@ -70,7 +70,7 @@ This project is suitable for applications such as laboratories, server rooms, co
 
 ## Block Diagram
 
-![Block Diagram](image/block_diagram.png)
+![Block Diagram](image/block_diagram(3).png)
 
 ### System Components
 
