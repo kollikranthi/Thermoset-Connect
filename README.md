@@ -7,7 +7,6 @@
 ![Language](https://img.shields.io/badge/Language-Embedded%20C-orange)
 ![Cloud](https://img.shields.io/badge/Cloud-ThingSpeak-green)
 ![WiFi](https://img.shields.io/badge/WiFi-ESP--01-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 
 
@@ -406,9 +405,3 @@ The following improvements can be implemented in future versions:
 - Introduce SMS and email-based temperature alerts.
 - Add long-term temperature data logging.
 - Implement a watchdog timer for improved system reliability.
-
-## License
-
-This project is licensed under the MIT License.
-
-See the [LICENSE](LICENSE) file for more information.
